@@ -14,8 +14,20 @@
         <input type="text" name="nazwisko" id="nazwisko"><br />
         <label for="email">E-mail:</label><br />
         <input type="email" name="email" id="email"><br />
-        <label for="phone">Telefon:</label><br />
-        <input type="tel" name="phone" id="phone"><br /><br />
+        <label for="telefon">Telefon:</label><br />
+        <input type="tel" name="telefon" id="telefon"><br />
+        <label for="miasto">Miasto:</label><br />
+        <select name="miasto" id="miasto">
+          <option value="Kraków">Kraków</option>
+          <option value="Warszawa">Warszawa</option>
+          <option value="Gdańsk">Gdańsk</option>
+        </select><br />
+        <label for="plec">Płeć:</label><br />
+        <select name="plec" id="plec">
+          <option value="mezczyzna">mężczyzna</option>
+          <option value="kobieta">kobieta</option>
+        </select><br /><br />
+        <input type="checkbox" name="zgoda" value="zgadzam się">Zgadzam się na wykorzystanie moich danych...<br /><br />
         <label for="message">Wiadomość:</label><br />
         <textarea name="message" id="message" placeholder="Twoja wiadmość"></textarea><br />
         <button type="submit">Wyślij</button>
