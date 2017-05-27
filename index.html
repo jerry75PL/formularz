@@ -4,32 +4,36 @@
 <head>
     <meta charset="UTF-8">
     <title>Formularz_test</title>
+    
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <form method="POST" action="https://formspree.io/jteklak@gmail.com">
+    <form id="form1" method="POST" action="https://formspree.io/jteklak@gmail.com">
         <label for="imie">Imię:</label><br />
-        <input type="text" name="imie" id="imie"><br />
+        <input type="text" name="imie" id="imie" class="w300"><br />
         <label for="nazwisko">Nazwisko:</label><br />
-        <input type="text" name="nazwisko" id="nazwisko"><br />
+        <input type="text" name="nazwisko" id="nazwisko" class="w300"><br />
         <label for="email">E-mail:</label><br />
-        <input type="email" name="email" id="email"><br />
+        <input type="email" name="email" id="email" class="w300"><br />
         <label for="telefon">Telefon:</label><br />
-        <input type="tel" name="telefon" id="telefon"><br />
+        <input type="tel" name="telefon" id="telefon" class="w300"><br />
         <label for="miasto">Miasto:</label><br />
-        <select name="miasto" id="miasto">
+        <select name="miasto" id="miasto" class="w300">
           <option value="Kraków">Kraków</option>
           <option value="Warszawa">Warszawa</option>
           <option value="Gdańsk">Gdańsk</option>
         </select><br />
         <p>Płeć:</p>
-        <input type="radio" name="plec" id="man" value="mezczyzna" checked><label for="man">Mężczyzna</label>
-        <input type="radio" name="plec" id="woman" value="kobieta"><label for="woman">Kobieta</label>
-        <label><input type="radio" name="plec" value="nieokreslona">Nieokreślona</label>
+        <input type="radio" name="plec" id="man" value="mezczyzna" checked><label for="man">Mężczyzna</label><br>
+        <input type="radio" name="plec" id="woman" value="kobieta"><label for="woman">Kobieta</label><br>
+        <input type="radio" name="plec" value="nieokreslona"><label for="noman">Nieokreślona</label><br>
           <br />
-        <input type="checkbox" name="zgoda" id="agreement" value="zgadzam się na wykorzystanie moich danych..." checked><label for="agreement">Zgadzam się na wykorzystanie moich danych...</label><br />
+        
         <label for="message">Wiadomość:</label><br />
-        <textarea name="message" id="message" placeholder="Twoja wiadmość"></textarea><br />
+        <textarea name="message" id="message"  class="w300" placeholder="Twoja wiadmość"></textarea><br />
+        
+        <input type="checkbox" name="zgoda" id="agreement" value="zgadzam się na wykorzystanie moich danych..." checked><label for="agreement">Zgadzam się na wykorzystanie moich danych...</label><br />
         <button type="submit">Wyślij</button>
     </form>
 </body>

@@ -1,0 +1,80 @@
+#form1 {
+    width: 50%;
+    background-color: #213b50;
+    color: #fff;
+    padding: 20px;
+}
+
+label{
+    display: block;
+    
+}
+
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+select, 
+textarea {
+    background-color: #2b4a64;
+    color: #fff;
+    border: 1px solid #2b4a64;
+    margin-bottom: 5px;
+    width: 300px;
+    padding: 10px 0; /* zamiast wysokości lepiej padding height: 30px; */
+    
+     
+}
+
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="email"]:focus,
+select:focus, 
+textarea:focus {
+    background-color: #4e708c;
+    border:1px solid #fff;
+    outline:none;
+}
+
+label[for*="man"], label[for="agreement"] {
+    display: inline;
+}
+
+
+/*
+input:focus{
+    background-color: #4e708c;
+    border: 2px solid #fff;
+}
+*/
+
+
+button[type="submit"] {
+    background-color: #1ac056;
+    color: #fff;
+    border: none; /*lub border: 1px color tła*/
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 20px ;
+    padding: 20px;
+    /* zamiast width: 50px; height: 30px; lepiej sterować margin padding*/
+    
+}
+
+/*
+.w300{
+    background-color: #2b4a64;
+    color: #fff;
+    border: 1px solid #2b4a64;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 20px;
+}
+*/
+
+/*
+.w300:focus{
+    background-color: #4e708c;
+    border: 1px solid #fff;
+  
+}*/
