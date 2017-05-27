@@ -22,9 +22,11 @@
           <option value="Warszawa">Warszawa</option>
           <option value="Gdańsk">Gdańsk</option>
         </select><br />
-        Płeć:<br />
-        <input type="radio" name="plec" value="mezczyzna" checked>Mężczyzna<br>
-        <input type="radio" name="plec" value="kobieta">Kobieta<br /><br />
+        <p>Płeć:</p>
+        <input type="radio" name="plec" id="man" value="mezczyzna" checked><label for="man">Mężczyzna</label>
+        <input type="radio" name="plec" id="woman" value="kobieta"><label for="woman">Kobieta</label>
+        <label><input type="radio" name="plec" value="nieokreslona">Nieokreślona</label>
+          <br />
         <input type="checkbox" name="zgoda" value="zgadzam się na wykorzystanie moich danych..." checked>Zgadzam się na wykorzystanie moich danych...<br /><br />
         <label for="message">Wiadomość:</label><br />
         <textarea name="message" id="message" placeholder="Twoja wiadmość"></textarea><br />
