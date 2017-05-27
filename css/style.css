@@ -7,7 +7,8 @@
 
 /*ustawienie bez wykorzystania <br> do ustawiania elementów jeden pod drugim*/
 label{
-    display: block;    
+    display: block;
+    margin: 10px 0 0 0;
 }
 
 label[for*="man"], label[for="agreement"] {
@@ -39,9 +40,6 @@ textarea:focus {
     outline:none;
 }
 */
-
-
-
 
 input:focus{
     background-color: #4e708c;
